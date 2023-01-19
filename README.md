@@ -14,9 +14,10 @@ Maybe you'll get banned, maybe you won't, maybe EAC will start purging anyone wh
 
 ## How do I use it?
 1. Satisfy the [requirements](#Requirements)
-2. Run `./jitter` from terminal
-3. Provide password, if prompted (should not ask again until the restart of ydotoold)
-4. Enjoy, you filthy cheater
+2. Clone the repo to some directory
+3. Run `./jitter` from terminal
+4. Provide password if prompted (should not ask again until the restart of ydotoold)
+5. Enjoy, you filthy cheater
 
 ## Requirements
 - GNU/Linux (duh)
