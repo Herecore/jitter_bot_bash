@@ -1,0 +1,12 @@
+#!/usr/bin/sh
+
+# By default ydotool looks in wrong directory
+export YDOTOOL_SOCKET=/tmp/.ydotool_socket
+
+# To allow to run ydotool without root
+uname2="$(stat -c "%U" /tmp/.ydotool_socket)"
+if [ "x${uname2}" != "x${USER}" ]; then
+	doas chown $USER:$USER /tmp/.ydotool_socket
+fi
+
+hkdm -c ./hkdm_jitter.toml -i

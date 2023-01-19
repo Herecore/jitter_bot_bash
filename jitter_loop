@@ -1,0 +1,36 @@
+#!/usr/bin/sh
+
+while true; do
+	# Go down
+	DISTANCE=6
+	i=1
+	while [ $i -le $DISTANCE ]; do
+		ydotool mousemove -x 0 -y 1
+		((i++))
+		sleep 0.000005
+	done
+
+	# Go right
+	i=1
+	while [ $i -le $DISTANCE ]; do
+		ydotool mousemove -x 1 -y 0
+		((i++))
+		sleep 0.000005
+	done
+
+	# Go up
+	i=1
+	while [ $i -le $DISTANCE ]; do
+		ydotool mousemove -x 0 -y -1
+		((i++))
+		sleep 0.000005
+	done
+
+	# Go left
+	i=1
+	while [ $i -le $DISTANCE ]; do
+		ydotool mousemove -x -1 -y 0
+		((i++))
+		sleep 0.000005
+	done
+done
