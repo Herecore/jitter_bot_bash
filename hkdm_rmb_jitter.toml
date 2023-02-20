@@ -1,0 +1,13 @@
+[[events]]
+name = "press"
+event_type = "EV_KEY"
+key_state = "pressed"
+keys = ["BTN_RIGHT", "BTN_LEFT"]
+command = "./jitter_loop"
+
+[[events]]
+name = "released"
+event_type = "EV_KEY"
+key_state = "released"
+keys = ["BTN_LEFT"]
+command = "killall jitter_loop"
