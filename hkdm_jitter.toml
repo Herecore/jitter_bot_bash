@@ -3,11 +3,11 @@ name = "press"
 event_type = "EV_KEY"
 key_state = "pressed"
 keys = ["BTN_LEFT"]
-command = "./jitter_loop"
+command = "./loop_jitter.sh"
 
 [[events]]
 name = "released"
 event_type = "EV_KEY"
 key_state = "released"
 keys = ["BTN_LEFT"]
-command = "killall jitter_loop"
+command = "killall loop_jitter.sh"
