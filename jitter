@@ -11,7 +11,7 @@ export YDOTOOL_SOCKET=/tmp/.ydotool_socket
 uname2="$(stat -c "%U" /tmp/.ydotool_socket)"
 if [ "x${uname2}" != "x${USER}" ]; then
 	echo "root is needed to set /tmp/.ydotool_socket to be owned by user"
-	doas chown $USER:$USER /tmp/.ydotool_socket
+	su - root -c "chown $USER:$USER /tmp/.ydotool_socket"
 	echo "root access granted"
 fi
 
