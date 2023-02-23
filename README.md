@@ -16,7 +16,7 @@ Maybe you'll get banned, maybe you won't, maybe EAC will start purging anyone wh
 1. Satisfy the [requirements](#Requirements)
 2. Clone the repo to some directory
 3. Check and edit `jitter.conf` to your preference
-3. Run `./jitter` from terminal
+3. Run `./jitter.sh` from terminal
 4. Provide password if prompted (should not ask again until the restart of ydotoold)
 5. Enjoy, you filthy cheater
 
