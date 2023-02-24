@@ -26,3 +26,7 @@ Maybe you'll get banned, maybe you won't, maybe EAC will start purging anyone wh
 - [hkdm](https://gitlab.com/postmarketOS/hkdm) - used to check if LMB is pressed or not
 
 NOTE: ydotool requires access to `/dev/uinput`, so you'd have to add your user in group `input` (usermod -aG input *username*) for script to run properly
+
+## Donate
+If this software was useful to you, you can support me financially
+- Monero: `847ZrjcSu9L6jFMMvF8e2s2QFijrchFbYESoaPwRBL3jW3Twj6KCVKNQBiNKWGugZoYkwkGWYkehLV9F6disHkttJw8kmU8`
