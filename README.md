@@ -30,3 +30,5 @@ NOTE: ydotool requires access to `/dev/uinput`, so you'd have to add your user i
 ## Donate
 If this software was useful to you, you can support me financially
 - Monero: `847ZrjcSu9L6jFMMvF8e2s2QFijrchFbYESoaPwRBL3jW3Twj6KCVKNQBiNKWGugZoYkwkGWYkehLV9F6disHkttJw8kmU8`
+- BTC: `bc1qw7tvu8msyscff334p3vxfdhg9mgg5a75q6l5qy`
+
