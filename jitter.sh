@@ -17,7 +17,7 @@ fi
 
 echo "running hkdm daemon..."
 if [ $REQUIRE_RMB -eq "0" ]; then
-	hkdm -c ./hkdm_jitter.toml -i
+	hkdm -c ./hkdm-configs/hkdm_jitter.toml -i
 else
-	hkdm -c ./hkdm_rmb_jitter.toml -i
+	hkdm -c ./hkdm-configs/hkdm_rmb_jitter.toml -i
 fi

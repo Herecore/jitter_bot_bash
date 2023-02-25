@@ -1,8 +1,7 @@
 #!/usr/bin/sh
 
 # Default values
-DISTANCE=10
-SLEEPTIME=0.000002
+DISTANCE=4
 
 # Config values
 . ./jitter.conf
@@ -11,32 +10,30 @@ while true; do
 	# Go down
 	i=1
 	while [ $i -le $DISTANCE ]; do
-		ydotool mousemove -x 0 -y 1
+		ydotool mousemove -x 0 -y 5
 		((i++))
-		sleep $SLEEPTIME
 	done
 
 	# Go right
 	i=1
 	while [ $i -le $DISTANCE ]; do
-		ydotool mousemove -x 1 -y 0
+		ydotool mousemove -x 5 -y 0
 		((i++))
-		sleep $SLEEPTIME
+		sleep 0
 	done
 
 	# Go up
 	i=1
 	while [ $i -le $DISTANCE ]; do
-		ydotool mousemove -x 0 -y -1
+		ydotool mousemove -x 0 -y -5
 		((i++))
-		sleep $SLEEPTIME
 	done
 
 	# Go left
 	i=1
 	while [ $i -le $DISTANCE ]; do
-		ydotool mousemove -x -1 -y 0
+		ydotool mousemove -x -5 -y 0
 		((i++))
-		sleep $SLEEPTIME
+		sleep 0
 	done
 done
